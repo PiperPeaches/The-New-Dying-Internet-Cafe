@@ -12,7 +12,7 @@
     }
 
     let username = "piperpeaches";
-    let repo = "Nixos-Config";
+    let repo = "The-New-Dying-Internet-Cafe";
 
     // State Management
     let files = $state<GitFile[]>([]);
@@ -69,7 +69,7 @@
 <div class="flex rounded border-white w-full h-[55vh] max-h-[55vh] overflow-hidden min-h-0 text-white border p-5">
     <!-- Sidebar: File Browser -->
     <div class="w-[35%] flex flex-col min-h-0 h-full">
-        <div class="p-1 uppercase"><a href="https://github.com/piperpeaches/Nixos-Config" target="_blank" rel="noreferrer">NixOS Configs</a>: /{currentPath}</div>
+        <div class="p-1 uppercase"><a href="https://github.com/piperpeaches/Nixos-Config" target="_blank" rel="noreferrer">{repo}</a>: /{currentPath}</div>
         
         {#if loading}
             <div class="animate-pulse">MAPPING_SECTORS...</div>

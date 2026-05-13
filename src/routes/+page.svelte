@@ -5,6 +5,7 @@
     import Right from './componants/Main/right.svelte';
     import Left from './componants/Main/left.svelte';
     import Banner from './componants/Main/Banner.svelte';
+    import Footer from './componants/Main/Footer.svelte';
 </script>
 
 <svelte:head>
@@ -17,4 +18,5 @@
         <Left />
         <Right />
     </div>
+    <Footer />
 </div>
