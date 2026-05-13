@@ -6,8 +6,8 @@
 
 <div class=" flex flex-col gap-5 text-white w-full">
     <h1 class="flex justify-center text-5xl">The Dying Internet Cafe</h1>
-    <div class="flex justify-center items-center gap-5">
-        <img src="/assets/cheesecakepfp.webp" alt="Cheesecake" class="w-50 rounded md:block hidden ">
+    <div class="flex 2xl:flex-row justify-center gap-5">
+        <img src="/assets/cheesecakepfp.webp" alt="Cheesecake" class="w-50 h-50 rounded xl:block hidden ">
         <p>
             My name is <strong>Cheesecake</strong>, and creating things for everyones entertainment is my passion.
             I enjoy researching and fiddling with code and technology.

@@ -9,6 +9,7 @@
 
   let links: LinkEntry[] = [
     { text: 'Join my Discord!', offsite: true, href: 'https://discord.gg/TxW6dmdz7m'},
+    { text: 'Join the Indieweb Hangout Discord', offsite: true, href: 'https://discord.gg/2gS3wY3g' },
     { text: 'YouTube', offsite: true, href: 'https://www.youtube.com/@dying-internet' },
     { text: 'GitHub', offsite: true, href: 'https://github.com/piperpeaches'}
   ];

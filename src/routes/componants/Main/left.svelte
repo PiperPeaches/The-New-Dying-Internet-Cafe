@@ -6,7 +6,7 @@
 </script>
 
     
-<div class=" w-full md:w-1/3 h-full flex flex-col gap-5">
+<div class=" w-full 2xl:w-1/3 h-full flex flex-col gap-5">
     <Buttons />
     <Links />
     <Button />
