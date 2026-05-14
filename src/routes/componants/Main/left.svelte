@@ -9,9 +9,9 @@
     
 <div class=" w-full md:w-1/3 h-full flex flex-col gap-5">
     <Buttons />
+    <Button />
     
     <ServerStats />
 
     <Links />
-    <Button />
 </div>
