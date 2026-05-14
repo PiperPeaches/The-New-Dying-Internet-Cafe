@@ -1,8 +1,27 @@
+<script lang="ts">
+    import clipgif from '$lib/assets/stamp1.gif';
+</script>
+
 <div class="rounded gap-2 border-white border p-5">
 <div>
     <h2 class="flex justify-center">Button Collection</h2>
 </div>
 <div class="flex flex-wrap items-center justify-center relative w-full gap-2 h-auto p-5">
+    <a 
+        href="https://gbpublishing.neocities.org/" 
+        target="_blank" 
+        rel="noreferrer" 
+        aria-label="Visit Dimden"
+        class="hover:scale-110 active:scale-95 transition-transform duration-75 block shrink-0"
+    >
+        <img 
+        src={clipgif} 
+        alt="Clip button icon" 
+        class="h-[31px] w-[88px] object-contain image-pixelated" 
+        loading="lazy"
+        />
+    </a>
+
     <a 
         href="https://dimden.dev/" 
         target="_blank" 

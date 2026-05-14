@@ -12,7 +12,7 @@
     }
 
     let username = "piperpeaches";
-    let repo = "The-New-Dying-Internet-Cafe";
+    let repo = "Nixos-Config";
 
     // State Management
     let files = $state<GitFile[]>([]);

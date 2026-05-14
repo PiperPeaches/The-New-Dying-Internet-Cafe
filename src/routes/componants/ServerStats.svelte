@@ -39,7 +39,7 @@
                 </div>
                 
                 {#if server.loading}
-                    <div class="text-purple-300">SCANNING_FREQUENCIES...</div>
+                    <div class="text-purple-300">Shaking Violently...</div>
                 {:else if server.data}
                     <!-- Detailed Stats Grid -->
                     <div class="grid grid-cols-2 gap-y-1 pl-3">
